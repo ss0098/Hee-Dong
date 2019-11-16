@@ -1535,7 +1535,7 @@ footer p a:hover {
 .multi-shop {
   position: absolute;
   width: 900px;
-  height: 500px;
+  height: 550px;
   background: #fff;
   left: 50%;
   top: 50%;
@@ -1638,7 +1638,19 @@ select[name="add-items"] {
   font-weight: 700;
   cursor: pointer;
 }
-
+.all-cost-box {
+  margin: 10px 0;
+  text-align: left;
+  font-weight: 700;
+  font-size: 18px;
+  color: #000;
+  padding-top: 10px;
+  overflow: hidden
+}
+#modal-allcost-data {
+  float: right;
+  font-size: 30px;
+}
 .modal-btn button {
   outline: none;
   border: 1px solid lightgray;
@@ -1774,8 +1786,8 @@ select[name="add-items"] {
 
 .multi-modal-close {
   position: fixed;
-  left: 69%;
-  top: 19%;
+  right: 0;
+  top: -30px;
   color: #fff;
   z-index: 5;
   background: rgba(0, 0, 0, 0.87);
@@ -1785,11 +1797,9 @@ select[name="add-items"] {
   text-align: center;
   line-height: 30px;
   border-radius: 5px;
-/*  display: none;*/
 }
 
 .multi-modal-close.active {
-/*  display: block;*/
 }
 
 .multi-modal-close:hover {
